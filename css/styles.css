@@ -1,0 +1,39 @@
+body {
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#canvas {
+  border: 2px solid #666;
+  cursor: crosshair;
+}
+
+.controls {
+  margin-left: 20px;
+}
+
+button {
+  background-color: #666;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #999;
+}
+
+button.active {
+  background-color: #333;
+}
